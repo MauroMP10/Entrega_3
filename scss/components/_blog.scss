@@ -1,0 +1,49 @@
+main {
+    margin-top: 2rem;
+  }
+  
+  .blog {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    padding: 4rem;
+    margin: 0 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  
+    img {
+      max-width: 200px;
+      margin-right: 20px;
+      border-radius: 8px;
+    }
+  
+    .blog-text {
+      flex: 1;
+    }
+  
+    h3 {
+      margin: 0 0 10px;
+      font-size: 1.5em;
+    }
+  
+    p {
+      font-size: 1em;
+      color: #666;
+      margin: 0;
+    }
+  
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #09417c;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }

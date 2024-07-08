@@ -26,11 +26,11 @@ main {
 /*****************HEADER********************/
 /*******************************************/
 
-.width-bg {
+.width-bg { /*ok*/
     background-color: rgb(71, 71, 73);
 }
 
-.hero-section {
+.hero-section { /*ok*/
     height: 100vh;
     background-image: url("../img/portada.png");
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ main {
 }
 
 
-.hero-content {
+.hero-content { /*ok*/
     width: 60%;
     padding: 2rem;
     border-radius: .5rem;
@@ -48,7 +48,8 @@ main {
 }
 
 .margin-section {
-    margin-top: 70px;
+    margin-top: 70px; /*no la encontre*/
+
 }
 
 
@@ -57,29 +58,29 @@ main {
 /******************FOOTER*******************/
 /*******************************************/
 
-.footer {
+.footer { /*ok*/
     background-color: #343a40;
     color: white;
     padding: 1rem 0;
     width: 100%;
     margin-top: 30px;
 }
-.footer a {
+.footer a { /*ok*/
     color: white;
     margin: 0 10px;
     text-decoration: none;
 }
-.footer a:hover {
+.footer a:hover { /*ok*/
     color: #ddd;
 }
-.footer-icon {
+.footer-icon { /*ok*/
     font-size: 1.5rem;
 }
 
 /*******************************************/
 /******************PRODUCTOS****************/
 /*******************************************/
-.productos {
+.productos { /*ok*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +89,7 @@ main {
     margin: 0 auto;
 }
 
-.product-rectangle {
+.product-rectangle { /*ok*/
     background: #fff;
     padding: 20px;
     margin: 20px 0;
@@ -100,26 +101,26 @@ main {
     max-width: 1200px;
 }
 
-.img_product, .p-aproduct, .video_product {
+.img_product, .p-aproduct, .video_product { /*ok*/
     margin-bottom: 20px;
 }
 
-.resized-image {
+.resized-image { /*ok*/
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-.p-aproduct h3 {
+.p-aproduct h3 { /*ok*/
     margin-bottom: 10px;
 }
 
-.product-text {
+.product-text { /*ok*/
     line-height: 1.6;
     color: #333;
 }
 
-.video_product iframe {
+.video_product iframe { /*ok*/
     width: 100%;
     height: 500px;
 }
@@ -244,19 +245,6 @@ main {
 /*****************NUTRICION******************/
 /*******************************************/
 
-.nutricion {
-    box-sizing: border-box;
-}
-
-.div-nutricion {
-    display: block;
-    unicode-bidi: isolate;
-}
-
-.nutricion-title {
-    margin: 3rem;
-}
-
 .nutricion-text {
     margin: 3rem;
 }
@@ -275,7 +263,7 @@ main {
 /*****************GALLERY******************/
 /*******************************************/
 
-.gallery {
+.gallery {/*ok*/
     width: 100%;
     margin: 50px auto;
     display: grid;
@@ -286,14 +274,14 @@ main {
     gap: 2rem;
 }
 
-.gallery__item {
+.gallery__item {/*ok*/
     background-color: #153f6d;
     position: relative;
     overflow: hidden;
 
 }
 
-.gallery__img {
+.gallery__img { /*ok*/
     width: 100%;
     height: 100%;
     object-fit: cover;
